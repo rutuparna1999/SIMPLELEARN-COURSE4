@@ -90,12 +90,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": ["./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.js"]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "2383e397-74ab-430c-a3fb-430ddfb2bc50"
   }
 }
